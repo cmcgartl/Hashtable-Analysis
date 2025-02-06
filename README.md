@@ -1,6 +1,3 @@
-## Problem 2
-
-Answer Problem 2 here, **DO NOT FORGET!**
 
 I began by confirming the birthday paradox. To do this, I created a file called birthday.cpp in which I create a hash table of size 365, with the debug boolean set to false to ensure random data. I then created a main function that creates 1 million random strings of letters of length 10, and stored them in a vector. I then added a new selection of these generated random strings into the empty hashtable until a collision occured, and tracked the number of inserts it required before a collision occured. My program repeats this 1000 times, and records the total number of instances where it took 23 or less inserts to find a collision, and the total where it took more than 23. I then found the average, and repeated this process 10 times to find the overall average for each. From my data, I found that it took 23 or less inserts 49.88 percent of the time, and more than 23 inserts 50.12 percent of the time, thus confirming the birthday paradox.
 
