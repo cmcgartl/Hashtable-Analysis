@@ -1,4 +1,3 @@
-# CS104 HW5 Heap Checker
 
 ### Using the Tests
 1. Copy this directory into your `hw5` folder
